@@ -1,0 +1,48 @@
+.footer{
+    background-color: rgb(5, 4, 63);
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    
+
+}
+.head-contact{
+   
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+.head-about{
+    color: white;
+    letter-spacing: 2px;
+
+}
+.underline{
+    height: 4px;
+    width: 4rem;
+    background-color: rgb(244, 244, 245);
+    border-radius: 10px;
+    transform: translateX(1rem);
+}
+.btn-first{
+    color: white;
+    background-color: rgb(5, 4, 63);
+    border: none;
+    font-size: 2rem;
+}
+.btn-first:hover{
+    color: rgb(242, 234, 14);
+    font-size: 2.5rem;
+}
+.contact-detail{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.footer__text{
+    padding: 12px;
+}
+.bold{
+    font-weight: bold;
+}
+.transform{
+    transform: translateX(6rem);
+}

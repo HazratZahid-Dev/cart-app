@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.display-flex{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  /* background-color: grey; */
+  margin-top: 50px;
+ 
+}
+.image-card{
+  width: 280px;
+  height: 300px;
+  border-radius: 10px;
+  transition: 0.5s;
+ 
+  
+}
+.image-card:hover{
+  
+  transform: scale(1.1);
+  
+
+  
+}
+.btn{
+  margin-left: 5rem;
+  transform: translateY(-20px);
+  padding: 5px;
+  color: black;
+}
+.btn:hover{
+  background-color: rgba(112, 251, 5, 0.83);
+  color: black;
+  font-weight: bold;
+}
+.text{
+  font-weight: bold;
+  letter-spacing: 1px;
+  
+  
+}
+.mb-3{
+  transform: translateY(-16px);
+  font-family: monospace;
+}
+
+.collapse{
+  margin-left: 50rem;
+}
+.Logo{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50px;
+ transform: translateX(-5rem);
+ transition: 2s;
+}
+.Logo:hover{
+  
+  /* transform: scaleX(0.5); */
+  /*transform: scaleX(-0.5);*/
+  /* transform: scaleY(0.5); */
+  /* transform: scaleY(-0.5); */
+  transform: rotateX(180deg);
+}
+.navbar-text{
+  font-weight: bold;
+  
+}
+.dark-btn{
+  transform: translateY(-130.1rem);
+  margin-left: 3rem;
+
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+ 
+  
+  position: fixed;
+  border-radius: 50%;
+  padding: 10px;
+
+}
+.dark-btn:hover{
+  color: black;
+  background-color: white;
+  transition: scaleX(1);
+
+}
+.mar-right{
+  transform: translateX(3rem);
+}
+::placeholder {
+  color:white;
+  opacity: 1; /* Firefox */
+}
+
+
+
+
+
+
+
+

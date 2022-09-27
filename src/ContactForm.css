@@ -1,0 +1,33 @@
+.Name-section{
+    
+    
+    width: 20rem;
+    border: none;
+    background: transparent;
+}
+form{
+    
+}
+.underline{
+    height: 4px;
+    color: rgb(215, 211, 211);
+    width: 20rem;
+    transform: translateX(-0px);
+}
+.Name-section:hover{
+    border: none;
+    border-radius: none;
+
+}
+.letter-space{
+    letter-spacing: 2px;
+}
+.side-image{
+    width: 24rem;
+    height: 24rem;
+    border-radius: 10px;
+    transform: translate(15rem);
+}
+.end{
+    justify-content: end;
+}
